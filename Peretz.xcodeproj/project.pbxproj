@@ -58,16 +58,40 @@
 		C040FF7F27B29D2F00F9A147 /* Peretz */ = {
 			isa = PBXGroup;
 			children = (
+				C040FF9827B2CB3900F9A147 /* controller */,
+				C040FF9727B2CB2F00F9A147 /* view */,
+				C040FF9627B2CB2500F9A147 /* Model */,
 				C040FF8027B29D2F00F9A147 /* AppDelegate.swift */,
 				C040FF8227B29D2F00F9A147 /* SceneDelegate.swift */,
-				C040FF8427B29D2F00F9A147 /* ViewController.swift */,
-				C040FF8627B29D2F00F9A147 /* Main.storyboard */,
-				C040FF9427B2A96300F9A147 /* PeretzTableViewController.swift */,
 				C040FF8927B29D3000F9A147 /* Assets.xcassets */,
-				C040FF8B27B29D3000F9A147 /* LaunchScreen.storyboard */,
 				C040FF8E27B29D3000F9A147 /* Info.plist */,
 			);
 			path = Peretz;
+			sourceTree = "<group>";
+		};
+		C040FF9627B2CB2500F9A147 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C040FF9727B2CB2F00F9A147 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C040FF8B27B29D3000F9A147 /* LaunchScreen.storyboard */,
+				C040FF8627B29D2F00F9A147 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C040FF9827B2CB3900F9A147 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C040FF9427B2A96300F9A147 /* PeretzTableViewController.swift */,
+				C040FF8427B29D2F00F9A147 /* ViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
