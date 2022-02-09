@@ -26,7 +26,7 @@
                             <viewLayoutGuide key="frameLayoutGuide" id="ePP-9D-7nd"/>
                         </scrollView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="ovo-ze-WEO">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="ovo-ze-WEO" customClass="PeretzTableViewCell" customModule="Peretz" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="177"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ovo-ze-WEO" id="Jtx-tQ-FqS">
@@ -116,8 +116,17 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" systemColor="labelColor"/>
+                                <connections>
+                                    <outlet property="imageViewOne" destination="iVH-Z0-pne" id="EVW-pr-IbF"/>
+                                    <outlet property="labelOne" destination="tgB-Fp-aPz" id="SLC-bu-yXZ"/>
+                                    <outlet property="minusLabel" destination="A8d-LD-Ix2" id="43E-Wv-FMf"/>
+                                    <outlet property="numberLabel" destination="0KE-29-DUl" id="iQf-CW-eUR"/>
+                                    <outlet property="plusLabel" destination="S5e-27-SOQ" id="iI0-GE-QCA"/>
+                                    <outlet property="priceOne" destination="Snc-WP-SKo" id="DVN-7B-cRt"/>
+                                    <outlet property="textViewOne" destination="BN0-Td-QTH" id="gUZ-m1-bvr"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="TNe-Pd-0F6">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="TNe-Pd-0F6" customClass="PeretzTableViewCellTwo" customModule="Peretz" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="221.5" width="414" height="177"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TNe-Pd-0F6" id="Ih1-MZ-ZeR">
@@ -185,8 +194,15 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" systemColor="labelColor"/>
+                                <connections>
+                                    <outlet property="imageViewTwo" destination="UxB-vH-dQ4" id="Raw-wg-keF"/>
+                                    <outlet property="labelTwo" destination="8RW-5B-h3V" id="PMB-yT-WD7"/>
+                                    <outlet property="plusLabelTwo" destination="zgk-tR-VEv" id="JMq-rU-TPZ"/>
+                                    <outlet property="priceTwo" destination="QUB-RU-oDs" id="v5m-j6-H8T"/>
+                                    <outlet property="textViewTwo" destination="sw7-Ao-Ctj" id="2Nm-AL-ORz"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="y7J-1c-7ht">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="y7J-1c-7ht" customClass="PeretzTableViewCellThree" customModule="Peretz" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="398.5" width="414" height="177"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="y7J-1c-7ht" id="ZTy-lZ-PFf">
@@ -254,8 +270,15 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" systemColor="labelColor"/>
+                                <connections>
+                                    <outlet property="imageViewThree" destination="ibN-F1-OQY" id="Ull-Mm-Pwf"/>
+                                    <outlet property="labelThree" destination="WaB-hr-lf0" id="AAo-qr-Khm"/>
+                                    <outlet property="plusThree" destination="oUV-g3-9LS" id="Ju7-AM-NYG"/>
+                                    <outlet property="priceThree" destination="Fpg-al-BJg" id="hax-NL-Cv6"/>
+                                    <outlet property="textViewThree" destination="5dC-M8-1Y1" id="Gwr-nd-UdC"/>
+                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="uaa-ru-HQz">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="uaa-ru-HQz" customClass="PeretzTableViewCellFour" customModule="Peretz" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="575.5" width="414" height="177"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uaa-ru-HQz" id="W1Q-1y-Dqw">
@@ -323,6 +346,13 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" systemColor="labelColor"/>
+                                <connections>
+                                    <outlet property="imageViewFour" destination="jbw-RE-UWi" id="jB1-lh-Rol"/>
+                                    <outlet property="labelFour" destination="Ocr-rh-v2j" id="vda-oh-SUQ"/>
+                                    <outlet property="plusFour" destination="rEW-DT-akX" id="vhn-fw-TpQ"/>
+                                    <outlet property="priceFour" destination="mbz-3W-3fR" id="8oq-8s-hYS"/>
+                                    <outlet property="textViewFour" destination="OwA-vG-R59" id="Qf9-AX-nD1"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -356,7 +386,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9aY-52-P8c" kind="show" id="hbr-Zg-L76"/>
+                                    <segue destination="9aY-52-P8c" kind="show" id="1sa-X8-HDH"/>
                                 </connections>
                             </button>
                         </subviews>
