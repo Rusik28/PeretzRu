@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0266C7627B53025003AA196 /* PeretzModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0266C7527B53025003AA196 /* PeretzModel.swift */; };
 		C040FF8127B29D2F00F9A147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040FF8027B29D2F00F9A147 /* AppDelegate.swift */; };
 		C040FF8327B29D2F00F9A147 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040FF8227B29D2F00F9A147 /* SceneDelegate.swift */; };
 		C040FF8527B29D2F00F9A147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040FF8427B29D2F00F9A147 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0266C7527B53025003AA196 /* PeretzModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeretzModel.swift; sourceTree = "<group>"; };
 		C040FF7D27B29D2F00F9A147 /* Peretz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peretz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C040FF8027B29D2F00F9A147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C040FF8227B29D2F00F9A147 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		C040FF9627B2CB2500F9A147 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C0266C7527B53025003AA196 /* PeretzModel.swift */,
 				C07A147A27B41F4800C5478D /* PeretzTableViewCell.swift */,
 				C07A147C27B4201000C5478D /* PeretzTableViewCellTwo.swift */,
 				C07A147E27B4203800C5478D /* PeretzTableViewCellThree.swift */,
@@ -183,6 +186,7 @@
 				C07A147B27B41F4800C5478D /* PeretzTableViewCell.swift in Sources */,
 				C040FF8127B29D2F00F9A147 /* AppDelegate.swift in Sources */,
 				C040FF8327B29D2F00F9A147 /* SceneDelegate.swift in Sources */,
+				C0266C7627B53025003AA196 /* PeretzModel.swift in Sources */,
 				C07A147D27B4201000C5478D /* PeretzTableViewCellTwo.swift in Sources */,
 				C040FF9527B2A96300F9A147 /* PeretzTableViewController.swift in Sources */,
 			);
