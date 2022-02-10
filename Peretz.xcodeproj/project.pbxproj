@@ -16,9 +16,6 @@
 		C040FF8D27B29D3000F9A147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C040FF8B27B29D3000F9A147 /* LaunchScreen.storyboard */; };
 		C040FF9527B2A96300F9A147 /* PeretzTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040FF9427B2A96300F9A147 /* PeretzTableViewController.swift */; };
 		C07A147B27B41F4800C5478D /* PeretzTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A147A27B41F4800C5478D /* PeretzTableViewCell.swift */; };
-		C07A147D27B4201000C5478D /* PeretzTableViewCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A147C27B4201000C5478D /* PeretzTableViewCellTwo.swift */; };
-		C07A147F27B4203800C5478D /* PeretzTableViewCellThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A147E27B4203800C5478D /* PeretzTableViewCellThree.swift */; };
-		C07A148127B4204900C5478D /* PeretzTableViewCellFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A148027B4204900C5478D /* PeretzTableViewCellFour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +30,6 @@
 		C040FF8E27B29D3000F9A147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C040FF9427B2A96300F9A147 /* PeretzTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeretzTableViewController.swift; sourceTree = "<group>"; };
 		C07A147A27B41F4800C5478D /* PeretzTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeretzTableViewCell.swift; sourceTree = "<group>"; };
-		C07A147C27B4201000C5478D /* PeretzTableViewCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeretzTableViewCellTwo.swift; sourceTree = "<group>"; };
-		C07A147E27B4203800C5478D /* PeretzTableViewCellThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeretzTableViewCellThree.swift; sourceTree = "<group>"; };
-		C07A148027B4204900C5478D /* PeretzTableViewCellFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeretzTableViewCellFour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +78,6 @@
 			children = (
 				C0266C7527B53025003AA196 /* PeretzModel.swift */,
 				C07A147A27B41F4800C5478D /* PeretzTableViewCell.swift */,
-				C07A147C27B4201000C5478D /* PeretzTableViewCellTwo.swift */,
-				C07A147E27B4203800C5478D /* PeretzTableViewCellThree.swift */,
-				C07A148027B4204900C5478D /* PeretzTableViewCellFour.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,13 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C040FF8527B29D2F00F9A147 /* ViewController.swift in Sources */,
-				C07A148127B4204900C5478D /* PeretzTableViewCellFour.swift in Sources */,
-				C07A147F27B4203800C5478D /* PeretzTableViewCellThree.swift in Sources */,
 				C07A147B27B41F4800C5478D /* PeretzTableViewCell.swift in Sources */,
 				C040FF8127B29D2F00F9A147 /* AppDelegate.swift in Sources */,
 				C040FF8327B29D2F00F9A147 /* SceneDelegate.swift in Sources */,
 				C0266C7627B53025003AA196 /* PeretzModel.swift in Sources */,
-				C07A147D27B4201000C5478D /* PeretzTableViewCellTwo.swift in Sources */,
 				C040FF9527B2A96300F9A147 /* PeretzTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

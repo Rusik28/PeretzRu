@@ -29,6 +29,7 @@ class PeretzTableViewCell: UITableViewCell {
         self.priceOne.tag = object.price
         self.numberLabel.tag = object.number
         
+
     }
     
 
