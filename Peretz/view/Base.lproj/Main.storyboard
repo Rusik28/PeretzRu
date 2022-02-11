@@ -47,8 +47,8 @@
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="11"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="318 ₽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snc-WP-SKo">
-                                            <rect key="frame" x="160" y="143" width="52" height="24"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 318 ₽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snc-WP-SKo">
+                                            <rect key="frame" x="160" y="143" width="52.5" height="24"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="8t3-g9-s0P"/>
                                                 <constraint firstAttribute="height" constant="24" id="zvH-tS-eIo"/>
@@ -91,7 +91,7 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <action selector="plusButton:" destination="ovo-ze-WEO" eventType="touchUpInside" id="8lL-HK-fwL"/>
+                                                <action selector="minusButton:" destination="9aY-52-P8c" eventType="touchUpInside" id="Hcd-F8-Liu"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ZW-aM-Q5K">
@@ -109,7 +109,7 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <action selector="minusButton:" destination="ovo-ze-WEO" eventType="touchUpInside" id="yM6-UB-GXq"/>
+                                                <action selector="plusButton:" destination="9aY-52-P8c" eventType="touchUpInside" id="eAj-Nq-ZgZ"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -136,7 +136,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <connections>
-                                    <outlet property="imageViewOne" destination="iVH-Z0-pne" id="EVW-pr-IbF"/>
+                                    <outlet property="imageViewOne" destination="iVH-Z0-pne" id="vdx-Ge-JjO"/>
                                     <outlet property="labelOne" destination="tgB-Fp-aPz" id="SLC-bu-yXZ"/>
                                     <outlet property="numberLabel" destination="0KE-29-DUl" id="iQf-CW-eUR"/>
                                     <outlet property="priceOne" destination="Snc-WP-SKo" id="DVN-7B-cRt"/>

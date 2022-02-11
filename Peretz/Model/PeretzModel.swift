@@ -8,12 +8,15 @@
 import Foundation
 
 struct Peretz {
-    var title: String
+    var id: Int
+    var date: String
+    var name: String
     var description: String
+    var new: Bool
+    var variations: Array<Any>
     var price: Int
-    var sign: String
-    var number: Int
-    var isFavourite: Bool
-    
-}
+    var imageApp: String
+    var image: String
+    var sort: Int
 
+}
