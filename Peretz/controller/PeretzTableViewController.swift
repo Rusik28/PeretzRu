@@ -9,18 +9,7 @@ import UIKit
 
 class PeretzTableViewController: UITableViewController {
 
-    @IBAction func minusButton(_ sender: Any) {
-        
-        
-        
-    }
-    
-    @IBAction func plusButton(_ sender: Any) {
-    }
-    
-    
-    
-    
+
     var objects = [
         Peretz(id: 828, date: "27.04.2020 16:08:32", name: "Салат с копченой телятиной", description: "Нежная копченая телятина, яйцо куриное, капуста пикинская, морковь, чеснок, зерна граната, майонез сливочный", new: false, variations: [0], price: 318, imageApp: "https://peretz-group.ru/upload/iblock/be0/be00543819d94e94a871a41736a210f4.png", image: "https://peretz-group.ru/upload/iblock/be0/be00543819d94e94a871a41736a210f4.png", sort: 500),
         Peretz(id: 814, date: "27.04.2020 16:02:29", name: "Гнездо", description: "Филе куриное, ветчина индейки, язык говяжий, лист салата, сыр пармезан, картофель пай, яйца перепелиные, огурцы свежие и маринованные\n", new: false, variations: [0], price: 343, imageApp: "https://peretz-group.ru/upload/iblock/9b8/9b864f942dc8f2cb4849f5fe19c87739.png", image: "https://peretz-group.ru/upload/iblock/9b8/9b864f942dc8f2cb4849f5fe19c87739.png", sort: 500),
@@ -32,7 +21,6 @@ class PeretzTableViewController: UITableViewController {
     
     override func viewDidLoad() {
          super.viewDidLoad()
-
     }
 
     // MARK: - Table view data source
