@@ -27,6 +27,7 @@ class PeretzTableViewCell: UITableViewCell {
         numberLabel.text = "\(number)"
     }
    
+   
     
     @IBAction func plusButton(_ sender: UIButton) {
         number += 1
@@ -37,18 +38,27 @@ class PeretzTableViewCell: UITableViewCell {
         super.didMoveToWindow()
          numberLabel.text = "\(number)"
     }
-        
-
-
+    
+    
+    override func accessibilityDecrement() {
+        super.accessibilityDecrement()
+    }
+    
+    
+   
+    
+    
+    
     func set(object: Peretz) {
         self.labelOne.text = object.name
         self.textViewOne.text = object.description
         self.priceOne.text = "\(object.price) ₽"
-        
+        self.imageViewOne.image = UIImage(named: object.image)
     }
     
 
 }
+
 
 
 

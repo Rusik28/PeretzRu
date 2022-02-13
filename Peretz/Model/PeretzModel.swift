@@ -19,5 +19,6 @@ struct Peretz {
     var image: String
     var sort: Int
 
+
 }
 

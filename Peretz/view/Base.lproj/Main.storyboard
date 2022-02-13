@@ -138,7 +138,7 @@
                                 <color key="backgroundColor" systemColor="labelColor"/>
                                 <connections>
                                     <outlet property="imageView" destination="iVH-Z0-pne" id="GeI-Dh-N8Q"/>
-                                    <outlet property="imageViewOne" destination="iVH-Z0-pne" id="wYJ-xO-Ifz"/>
+                                    <outlet property="imageViewOne" destination="iVH-Z0-pne" id="hfJ-Ya-x3s"/>
                                     <outlet property="labelOne" destination="tgB-Fp-aPz" id="SLC-bu-yXZ"/>
                                     <outlet property="numberLabel" destination="0KE-29-DUl" id="WEy-Vk-2Mm"/>
                                     <outlet property="priceOne" destination="Snc-WP-SKo" id="DVN-7B-cRt"/>
